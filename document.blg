@@ -1,0 +1,108 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: document.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: literature_review.aux
+A level-1 auxiliary file: theoretical_considerations.aux
+A level-1 auxiliary file: design_considerations.aux
+A level-1 auxiliary file: methodology.aux
+A level-1 auxiliary file: results_and_discussion.aux
+A level-1 auxiliary file: conclusions.aux
+The style file: IEEEtr.bst
+A level-1 auxiliary file: answers_to_questions.aux
+A level-1 auxiliary file: usage_examples.aux
+A level-1 auxiliary file: publication.aux
+A level-1 auxiliary file: vita.aux
+Database file #1: references.bib
+Warning--entry type for "almendro" isn't style-file defined
+--line 130 of file references.bib
+Warning--string name "cup" is undefined
+--line 168 of file references.bib
+Warning--string name "cup" is undefined
+--line 189 of file references.bib
+Warning--entry type for "baez/online" isn't style-file defined
+--line 297 of file references.bib
+Warning--string name "jams" is undefined
+--line 316 of file references.bib
+Warning--entry type for "chiu" isn't style-file defined
+--line 461 of file references.bib
+Warning--string name "anch-ie" is undefined
+--line 863 of file references.bib
+Warning--entry type for "itzhaki" isn't style-file defined
+--line 1026 of file references.bib
+Warning--entry type for "kowalik" isn't style-file defined
+--line 1179 of file references.bib
+Warning--entry type for "laufenberg" isn't style-file defined
+--line 1239 of file references.bib
+Warning--entry type for "loh" isn't style-file defined
+--line 1295 of file references.bib
+Warning--entry type for "markey" isn't style-file defined
+--line 1360 of file references.bib
+Warning--string name "cup" is undefined
+--line 1507 of file references.bib
+Warning--string name "dtv" is undefined
+--line 1530 of file references.bib
+Warning--string name "dtv" is undefined
+--line 1560 of file references.bib
+Warning--string name "dtv" is undefined
+--line 1586 of file references.bib
+Warning--string name "acm" is undefined
+--line 1620 of file references.bib
+Warning--string name "stoc" is undefined
+--line 1629 of file references.bib
+Warning--entry type for "padhye" isn't style-file defined
+--line 1653 of file references.bib
+Warning--string name "hup" is undefined
+--line 1736 of file references.bib
+Warning--entry type for "sorace" isn't style-file defined
+--line 1902 of file references.bib
+Warning--entry type for "wassenberg" isn't style-file defined
+--line 1978 of file references.bib
+Warning--entry type for "matuz:doody" isn't style-file defined
+--line 2123 of file references.bib
+Warning--string name "stoc" is undefined
+--line 2139 of file references.bib
+Warning--string name "acm" is undefined
+--line 2147 of file references.bib
+Warning--entry type for "jcg" isn't style-file defined
+--line 2152 of file references.bib
+Warning--string name "stoc" is undefined
+--line 2217 of file references.bib
+Warning--string name "stoc-key" is undefined
+--line 2220 of file references.bib
+Warning--string name "stoc" is undefined
+--line 2224 of file references.bib
+Warning--string name "acm" is undefined
+--line 2229 of file references.bib
+Warning--string name "stoc" is undefined
+--line 2231 of file references.bib
+Warning--string name "stoc-key" is undefined
+--line 2232 of file references.bib
+A bad cross reference---entry "westfahl:space"
+refers to entry "westfahl:frontier", which doesn't exist
+Warning--I didn't find a database entry for "geer"
+Warning--I didn't find a database entry for "westfahl:frontier"
+Warning--can't use both author and editor fields in aristotle:rhetoric
+Warning--empty publisher in aristotle:rhetoric
+Warning--can't use both author and editor fields in aristotle:anima
+Warning--empty publisher in aristotle:anima
+Warning--can't use both author and editor fields in aristotle:poetics
+Warning--empty publisher in BCM-59
+Warning--can't use both author and editor fields in averroes/bland
+Warning--can't use both author and editor fields in cicero
+Warning--can't use both author and editor fields in coleridge
+Warning--can't use both volume and number fields in coleridge
+Warning--can't use both author and editor fields in nietzsche:ksa
+Warning--can't use both author and editor fields in nietzsche:ksa1
+Warning--empty publisher in hanson-67
+Warning--can't use both author and editor fields in nietzsche:historie
+Warning--empty publisher in pines
+Warning--empty publisher in ranganathan-51
+Warning--empty booktitle in westfahl:space
+Warning--empty publisher in westfahl:space
+Warning--can't use both author and editor fields in wright-63
+Warning--empty publisher in wright-63
+Warning--empty journal in bertram
+Warning--empty journal in herrmann
+Warning--empty author in whole-journal
+Warning--empty title in whole-journal
+Warning--empty institution in winget-67
+(There was 1 error message)

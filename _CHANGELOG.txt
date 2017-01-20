@@ -1,0 +1,74 @@
+Change history of DLSUdtp.
+*******
+v2016.08.05 changes:
+
+(1) In document.tex: changed style=dict for the glossary
+(2) Added versioning number to a PDF file field
+(3) Placed some descriptions of commonly expected contents in certain chapters and sections.
+(4) Generalized terms based on the document type. 
+(5) Added files for notations, LaTeX math, citation, style, and abbreviation of bibliography entries
+(6) Separated files before TOC
+(7) Changed versioning number to YYYY.MM.DD format
+(8) Renamed some files 
+(9) Corrected only those grammatical & spelling mistakes that have been detected
+(10) Added (a) usage examples on citation, and (b) IEEE styles
+
+Changes by: Lawrence Materum
+*******
+
+*******
+2016-Jun-26
+V0.13 changes:
+
+(1) In usage_example.tex: Fixed equations listing to reflect the actual code. 
+(2) In usage_example.tex: Added page numbers in the section "Adding Relevant PDF Pages." 
+(3) Renamed example.pdf in the figure directory to example_gray_box.pdf
+(4) Fixed the double Approval Sheet for the graduate school format
+(5) Added the preparation guide in the Abstract
+
+Changes by: Lawrence Materum
+*******
+
+*******
+2015-May-26 
+V0.12 changes:
+
+(1) In usage_example.tex: Fixed hanging \boldmath and Index example. Improved notation, figure, table, referencing, algorithm/pseudocode/code listing examples. 
+
+(2) Modified documentType to Thesis instead of Thesis Proposal
+
+(3) Corrected last missing 0 in ISO 8000-2 (the correct one is ISO 80000-2)
+
+(4) Corrected some grammatical errors (there might be more left).
+
+Changes by: Lawrence Materum
+*******
+
+*******
+2015-May-25 
+V0.1 changes:
+
+(1) Tried to fix the "Improper Alphabetic Constant" error.
+
+(2) Placed additional examples in usage_example.tex
+
+Changes by: Lawrence Materum
+*******
+
+*******
+25-May-2015 original LaTeX2e version:
+
+by Lawrence Materum
+Department of Electronics and Communications Engineering
+De La Salle University, Manila, Philippines
+*******
+
+*******
+2015-March-17 
+V0.0:
+
+(1) Released to Engr. Ann Dulay
+
+By: Lawrence Materum
+*******
+

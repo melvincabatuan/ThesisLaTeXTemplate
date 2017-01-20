@@ -1,0 +1,125 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ifGrad % Approval Sheet for graduate proposals
+	\ifFinished
+	
+	\else % the approval sheet for oral examination is not placed in the manuscript prior to binding
+		\phantomsection
+		\addcontentsline{toc}{chapter}{% for the TOC
+		\ifGrad 
+				Approval Sheet 
+		\else  
+				\documentType \ Approval Sheet 
+		\fi}
+		
+		{
+		\thispagestyle{empty}
+		\begin{SingleSpace}
+			\begin{center} % for the TOC
+				{\normalfont \Large \bfseries \rmfamily \MakeTextUppercase{\documentType \ Approval Sheet}}
+			\end{center}
+			\vspace{\afterchapskip}
+			
+			\noindent This \MakeTextLowercase{\documentType}  entitled:
+			\vfill
+							
+			\begin{center}
+				{\bfseries ``\documentTitle''}
+			\end{center}
+		  \vfill
+			
+			\noindent prepared and submitted by 
+			{\ {\bfseries \documentAuthor{firstname1}} 
+			 \ {\bfseries \documentAuthor{surname1}},}
+			in partial fulfillment of the requirements for the degree of
+			{\bfseries \degreeType \ in \ \degree} \  
+			has been examined and is recommended for acceptance and approval 
+			for ORAL~EXAMINATION.\\
+			\vfill
+											
+			\begin{tabular}{c c c}
+			\hspace {9em} & \hspace {9em} & \rule{5cm}{.4pt}\\
+			& & {\bfseries \documentAdviserTitle\ \documentAdviser}\\
+			& & {\itshape Adviser} \\
+			\end{tabular}
+			\vfill
+
+			\noindent Approved by the Committee on Oral Examination 
+			with a defense result of 
+			\rule{3cm}{.4pt} on \ \approvalDate.\\
+			\vfill
+						
+			{
+			\centering
+			\rule{5cm}{.4pt}\\
+			{\bfseries \examinerChairTitle \ \examinerChair}\\
+			{\itshape Chair} \\
+			\vfill
+
+			\begin{tabular}{c c c}
+			\rule{5cm}{.4pt} & \hspace {8em} & \rule{5cm}{.4pt}\\
+			{\bfseries \examinerATitle \ \examinerA} & & 
+			{\bfseries \examinerBTitle \ \examinerB}\\ 
+			{\itshape Member} & & {\itshape Member} \\
+			\end{tabular}
+			\vfill
+
+			\ifPhD
+				\begin{tabular}{c c c}
+				\rule{5cm}{.4pt} & \hspace {8em} & \rule{5cm}{.4pt}\\
+				{\bfseries \examinerCTitle \ \examinerC} & & 
+				{\bfseries \examinerDTitle \ \examinerD}\\ 
+				{\itshape Member} & & {\itshape Member} \\
+				\end{tabular}
+				\vfill
+			\fi
+			}
+
+		\end{SingleSpace}
+		}
+	\fi	
+		
+		
+\else	% Oral Defense Recommendation Sheet for undergraduate thesis format
+	{
+	\thispagestyle{empty}
+	\begin{SingleSpace}
+		\phantomsection
+		\addcontentsline{toc}{chapter}{Oral Defense Recommendation Sheet}
+
+		\begin{center} 
+		{\normalfont \Large \bfseries \rmfamily 
+		\MakeTextUppercase{Oral Defense Recommendation Sheet}}
+		\end{center}
+		\vspace{\afterchapskip}
+
+		\noindent This \MakeTextLowercase{\documentType},  
+		entitled {\bfseries \documentTitle}, 
+		prepared and submitted by 
+		\ifGroupID thesis group, \groupID, composed of\fi:\\
+
+		{\centering  
+		\foreach \n in {1,...,\numberOfAuthors}{
+		\MakeTextUppercase{
+		\documentAuthor{surname\n}}, \ \documentAuthor{firstname\n} \\}
+		}
+		\vspace{3ex}
+
+		\noindent in partial fulfillment of the  requirements for the degree of
+		{\bfseries \degreeType \ in \degree} \ ({\bfseries \degreeAbbrv}) 
+		has been examined and is recommended for acceptance and approval 
+		for {\bfseries ORAL DEFENSE}.\\
+		\vfill
+
+		{\centering
+		\rule{5cm}{.4pt}\\
+		{\bfseries \documentAdviserTitle\ \documentAdviser}\\
+		{\itshape Adviser} \\
+		\vspace{4ex}
+		\usdate\today \\
+		}
+	\end{SingleSpace}		
+	}
+\fi	
+\ULCornerWallPaper{1}{../format/dlsu_thesis_paper_letterhead}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

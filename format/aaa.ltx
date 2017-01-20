@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ifFinished
+	\chapter*{}
+	{
+	\thispagestyle{empty}
+	\begin{SingleSpace}
+		\vfill
+		
+		\ifPutLineNumbers
+			\TitleGuide
+		\fi
+		
+		\vfill
+		{
+		\footnotesize
+		\begin{Spacing}{0.75}
+			\noindent \the\year \ \\
+			\noindent All Rights Reserved. 
+			No part of this publication may be reproduced, 
+			stored in an information retrieval system, or 
+			transmitted, in any form or by any means, 
+			electronic, mechanical, by photocopying, scanning, recording, or otherwise, 
+			except under the terms of the applicable law.
+		\end{Spacing}
+		}
+	\end{SingleSpace}
+	}
+	\cleardoublepage
+
+	\phantomsection
+	\addcontentsline{toc}{chapter}{Acknowledgment}
+	\begin{SingleSpace}
+		\input{acknowledgment.tex}
+		\ifPutLineNumbers
+			\AcknowledgmentGuide
+		\fi
+	\end{SingleSpace}
+	\cleardoublepage
+\fi
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\phantomsection
+\addcontentsline{toc}{chapter}{Abstract}
+\begin{DoubleSpace}
+	\input{abstract.tex}
+	%\ifPutLineNumbers
+		%\AbstractGuide
+	%\fi
+	\vspace{3ex} \noindent {\itshape Index Terms}---\keywords.
+\end{DoubleSpace}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
